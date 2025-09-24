@@ -1,0 +1,5 @@
+dot-env
+pandas
+scikit-learn
+matplotlib
+seaborn
