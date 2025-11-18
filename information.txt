@@ -1,0 +1,5 @@
+Data Validation:
+1.Data set should have same schema(same number of columns and same number of features,same disrtibution)
+2.Data Drift:It is used to check whether the distribution of the data is same or not.
+when comparing it with the data,data that we have used for training our model and data that we are specifically getting
+3.Validate the number of columns and validate the number of                                                       

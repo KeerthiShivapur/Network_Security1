@@ -42,7 +42,7 @@ class NetworkDataExtract():
             self.records = records
 
             # Use correct connection string
-            self.mongo_client = pymongo.MongoClient(MONGO_DB_URL, tlsCAFile=ca)
+            self.mongo_client = pymongo.MongoClient(MONGO_DB_URL, tls=True, tlsCAFile=certifi.where(),tlsAllowInvalidCertificates=False)
             self.database = self.mongo_client[self.database]
             
             self.collection = self.database[self.collection]
